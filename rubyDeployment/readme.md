@@ -24,7 +24,7 @@ https://www.phusionpassenger.com/library/walkthroughs/basics/ruby/fundamental_co
 
 ![](img/EC2Setup/01.png)
 
-2. In the EC2 dashboard, let's click the large blue button that says **`Launch Instance`**.
+2. In the EC2 dashboard, let's click the large blue button that says **Launch Instance**.
 
 ![](img/EC2Setup/02.png)
 
@@ -34,20 +34,20 @@ https://www.phusionpassenger.com/library/walkthroughs/basics/ruby/fundamental_co
 
 ![](img/EC2Setup/03.png)
 
-4. Now we get to choose how powerful we want this computer to be. Let's go with the t2.micro which is the only free tier eligible instance. Click on **`Next: Configure Instance Details`** so that we can make more configurations. We will be using mostly default configurations but is good to know what you are able to customize
+4. Now we get to choose how powerful we want this computer to be. Let's go with the t2.micro which is the only free tier eligible instance. Click on **Next: Configure Instance Details** so that we can make more configurations. We will be using mostly default configurations but is good to know what you are able to customize
 
 ![](img/EC2Setup/04.png)
 
-5. We won't be changing any of the default configurations for our instance details. Click **`Next: Add Storage`**.
+5. We won't be changing any of the default configurations for our instance details. Click **Next: Add Storage**.
 
 ![](img/EC2Setup/05.png)
 
-6. This is where we want to specify how much storage we want. We will only need 8 GB for now. Click on **`Next: Tag Instance`**.
+6. This is where we want to specify how much storage we want. We will only need 8 GB for now. Click on **Next: Tag Instance**.
 
 ![](img/EC2Setup/06.png)
 
 
-7. We can give our instance a name by `tagging` it. We don't need to worry about tagging an instance for now. Click on **`Next: Configure Security Group`**.
+7. We can give our instance a name by `tagging` it. We don't need to worry about tagging an instance for now. Click on **Next: Configure Security Group**.
 
 ![](img/EC2Setup/07.png)
 
@@ -72,7 +72,6 @@ https://www.phusionpassenger.com/library/walkthroughs/basics/ruby/fundamental_co
 Now we should be connected to our cloud server. The user in the terminal that should be: `ubuntu@your-private-ip-address`. Once connected, we need to update Ubuntu. For this, we will use Ubuntu's Advanced Packaging Tool (APT)
 
 * In your terminal, run `sudo apt-get update` and `sudo apt-get -y upgrade`.
-
 
 # Installing Ruby, Rails and Phusion Passenger
 Since we are deploying a Ruby on Rails application we also need to install RVM (Ruby Version Manager). RVM will help us manage and install Ruby
